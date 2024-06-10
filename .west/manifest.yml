@@ -1,0 +1,26 @@
+manifest:
+
+  remotes:
+    - name: zephyr
+      url-base: https://github.com/zephyrproject-rtos
+    - name: norgaard
+      url-base: https://github.com/allannk
+
+  projects:
+    - name: zephyr
+      remote: zephyr
+      repo-path: zephyr
+      revision: v3.6-branch
+      import:
+        path-prefix: sdk
+        name-allowlist:
+          - cmsis
+          - hal_stm32
+          - hal_espressif
+      path: zephyr
+    - name: tlx-solar-meter
+      remote: norgaard
+      repo-path: tlx-solar-meter
+      revision: main
+      path: applications/tlx-solar-meter
+

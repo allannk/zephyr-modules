@@ -1,0 +1,6 @@
+[manifest]
+path = .west
+file = manifest.yml
+
+[zephyr]
+base = sdk/zephyr
