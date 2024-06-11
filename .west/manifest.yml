@@ -18,9 +18,3 @@ manifest:
           - hal_stm32
           - hal_espressif
       path: zephyr
-    - name: tlx-solar-meter
-      remote: norgaard
-      repo-path: tlx-solar-meter
-      revision: main
-      path: applications/tlx-solar-meter
-
