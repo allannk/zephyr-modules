@@ -1,0 +1,4 @@
+name: zmodules
+build:
+  cmake: .
+  kconfig: Kconfig
