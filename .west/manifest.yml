@@ -17,4 +17,6 @@ manifest:
           - cmsis
           - hal_stm32
           - hal_espressif
+          - mbedtls
       path: zephyr
+      
